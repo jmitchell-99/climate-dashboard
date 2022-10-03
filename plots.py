@@ -119,7 +119,7 @@ class ClimatePlots:
 
         fig_cd = px.line(df_cd, x='date', y='trend', title='Atmospheric CO2 Levels',  template='plotly_dark')
         fig_cd.update_traces(line=dict(color='white', width=2))
-        fig_cd.update_layout(xaxis_title='Date', yaxis_title='Carbon Dioxide (ppm)', autosize=True) # autosize=True
+        fig_cd.update_layout(xaxis_title='Date', yaxis_title='Carbon Dioxide (ppm)', autosize=True)
         fig_cd.update_layout(xaxis=dict(rangeslider=dict(visible=True)))
         fig_cd.update_layout(yaxis=dict(tickmode='linear', tick0=390.0, dtick=5))
 
