@@ -1,0 +1,81 @@
+body {
+    background-color: #111111;
+}
+
+.tab {
+    width: 6.67vw !important;
+    height: 4vh !important;
+    border-top: 1px solid #d6d6d6;
+    border-bottom: 1px solid #d6d6d6;
+    background-color: #111111 !important;
+    padding: 6px;
+    color: #746A61;
+    font-family: Calibri;
+    font-size: 12px
+}
+
+.tab_selected {
+    width: 6.67vw !important;
+    height: 4vh !important;
+    border-top: 1px solid #d6d6d6 !important;
+    border-bottom: 1px solid #d6d6d6 !important;
+    background-color: #111111 !important;
+    padding: 6px;
+    color: #d6d6d6 !important;
+    font-family: Calibri;
+    font-weight: bold;
+    font-size: 12px
+}
+
+.weather_fig {
+    width: 40vw;
+    height: 90vh;
+    border-bottom: 1px solid #d6d6d6;
+    border-left: 1px solid #d6d6d6;
+    border-right: 1px solid #d6d6d6
+}
+
+.dropdown {
+    width: 25vh;
+    height: 3vh;
+    color: #111111;
+    font-family: Calibri
+}
+
+.climate_fig {
+    width: 40vw;
+    height: 45vh;
+    border-bottom: 1px solid #d6d6d6;
+    border-top: 1px solid #d6d6d6;
+    border-left: 1px solid #d6d6d6;
+    border-right: 1px solid #d6d6d6
+}
+
+.label {
+    height: 2vh;
+    background-color: #111111;
+    color: #d6d6d6;
+    font-size: 12px;
+    font-family: Calibri
+}
+
+.input {
+    height: 2vh;
+    background-color: #506784;
+    color: #d6d6d6;
+    border-color: #506784;
+    font-family: Calibri
+}
+
+.input_label {
+    height: 1vh;
+    background-color: #111111;
+    color: #d6d6d6;
+    font-size: 16px;
+    font-family: Calibri;
+    font-weight: bold
+}
+
+.break {
+    height: 1vh
+}
